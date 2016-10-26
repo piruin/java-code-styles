@@ -1,10 +1,10 @@
-<code_scheme name="Square">
+<code_scheme name="UncleBobAndroid">
   <option name="USE_SAME_INDENTS" value="true" />
   <option name="IGNORE_SAME_INDENTS_FOR_LANGUAGES" value="true" />
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
       <option name="USE_TAB_CHARACTER" value="false" />
       <option name="SMART_TABS" value="false" />
@@ -67,40 +67,40 @@
   <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
   <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
   <option name="ENUM_CONSTANTS_WRAP" value="1" />
+  <AndroidXmlCodeStyleSettings>
+    <option name="USE_CUSTOM_SETTINGS" value="true" />
+    <option name="LAYOUT_SETTINGS">
+      <value>
+        <option name="INSERT_BLANK_LINE_BEFORE_TAG" value="false" />
+        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
+      </value>
+    </option>
+  </AndroidXmlCodeStyleSettings>
   <JavaCodeStyleSettings>
     <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
     <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
   </JavaCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
-  <SqlCodeStyleSettings>
-    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
-    <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
-  </SqlCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="PACKAGES_TO_USE_STAR_IMPORTS">
+      <value />
+    </option>
+    <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="999" />
+    <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="999" />
+    <option name="IMPORT_NESTED_CLASSES" value="true" />
+  </JetCodeStyleSettings>
   <XML>
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
-  <ADDITIONAL_INDENT_OPTIONS fileType="feature">
-    <option name="INDENT_SIZE" value="2" />
-  </ADDITIONAL_INDENT_OPTIONS>
-  <ADDITIONAL_INDENT_OPTIONS fileType="haml">
-    <option name="INDENT_SIZE" value="2" />
-  </ADDITIONAL_INDENT_OPTIONS>
   <ADDITIONAL_INDENT_OPTIONS fileType="php">
     <option name="INDENT_SIZE" value="2" />
     <option name="CONTINUATION_INDENT_SIZE" value="4" />
     <option name="TAB_SIZE" value="2" />
   </ADDITIONAL_INDENT_OPTIONS>
-  <ADDITIONAL_INDENT_OPTIONS fileType="rb">
+  <ADDITIONAL_INDENT_OPTIONS fileType="scala">
     <option name="INDENT_SIZE" value="2" />
-    <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    <option name="CONTINUATION_INDENT_SIZE" value="2" />
     <option name="TAB_SIZE" value="2" />
-    <option name="USE_RELATIVE_INDENTS" value="true" />
-  </ADDITIONAL_INDENT_OPTIONS>
-  <ADDITIONAL_INDENT_OPTIONS fileType="sass">
-    <option name="INDENT_SIZE" value="2" />
   </ADDITIONAL_INDENT_OPTIONS>
   <codeStyleSettings language="CSS">
     <indentOptions>
@@ -110,6 +110,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="CoffeeScript">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
@@ -117,6 +118,7 @@
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="Groovy">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
@@ -142,16 +144,10 @@
     <option name="FIELD_ANNOTATION_WRAP" value="1" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
-    <option name="ENUM_CONSTANTS_WRAP" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="HTML">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
@@ -222,15 +218,9 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
-  </codeStyleSettings>
-  <codeStyleSettings language="JSPX">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_LINE_BREAKS" value="false" />
@@ -238,46 +228,40 @@
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
+    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
     <option name="BINARY_OPERATION_WRAP" value="5" />
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
+    <option name="TERNARY_OPERATION_WRAP" value="1" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="WRAP_COMMENTS" value="true" />
+    <option name="FOR_STATEMENT_WRAP" value="1" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+    <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="IF_BRACE_FORCE" value="1" />
     <option name="DOWHILE_BRACE_FORCE" value="1" />
     <option name="WHILE_BRACE_FORCE" value="1" />
-    <option name="FOR_BRACE_FORCE" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
-  <codeStyleSettings language="PHP">
-    <option name="KEEP_LINE_BREAKS" value="false" />
-    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
-    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
-    <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
-    <option name="BINARY_OPERATION_WRAP" value="5" />
-    <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="WRAP_COMMENTS" value="true" />
-    <option name="IF_BRACE_FORCE" value="1" />
-    <option name="DOWHILE_BRACE_FORCE" value="1" />
-    <option name="WHILE_BRACE_FORCE" value="1" />
-    <option name="FOR_BRACE_FORCE" value="1" />
-    <option name="METHOD_ANNOTATION_WRAP" value="1" />
-    <option name="CLASS_ANNOTATION_WRAP" value="1" />
-    <option name="FIELD_ANNOTATION_WRAP" value="1" />
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  <codeStyleSettings language="kotlin">
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
@@ -302,8 +286,118 @@
   <codeStyleSettings language="XML">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
+    <arrangement>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <NAME>class</NAME>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <NAME>layout</NAME>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <NAME>xmlns:android</NAME>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <NAME>xmlns:.*</NAME>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:id</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+         <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:name</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:layout_width</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:layout_height</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:layout_.*</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <NAME>.*(?&lt;!style)$</NAME>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <NAME>style</NAME>
+            </match>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
   </codeStyleSettings>
 </code_scheme>
