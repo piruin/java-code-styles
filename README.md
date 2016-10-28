@@ -1,23 +1,20 @@
 # Uncle Bob's Styles
 
-Want to try code style as seen in ***Clean Code : A Handbook of Agile Software Craftsmanship*** ?
+Want to try code style as seen in ***[Clean Code : A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/)*** by [Robert C. Martin (Uncle Bob)](https://sites.google.com/site/unclebobconsultingllc/) ?
 
-[![Clean Code](https://raw.githubusercontent.com/piruin/uncle-bob-style/master/cleancode.jpg)](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/)
-
-
-This is IntelliJ IDEA (include Android Studio) Code style config base on code snippet in Clean Code by Robert C. Martin aka Uncle Bob
-for Java and Android Project
+This is IntelliJ IDEA (include Android Studio) Java Code style config base on code snippet in that one
 
 > **NOTE!** This is not his official configuration.
 
+If you found any issue or have any suggestion, [create it](https://github.com/piruin/uncle-bob-style/issues) and figure out together.
 
 ## Installation
-
 
  * On Unix, run the `install.sh` script. Windows users should use `install.bat` instead.
  * Restart IntelliJ if it's running.
  * Open IntelliJ Project Settings -> Code Styles, change the code style for the
    project to the one you want.
+ * Don't forget to `apply` :smile:
 
 ## License
 
