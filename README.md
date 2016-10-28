@@ -1,10 +1,11 @@
 # Uncle Bob's Styles
 
-Want to try code style as seen in ***[Clean Code : A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/)*** by [Robert C. Martin (Uncle Bob)](https://sites.google.com/site/unclebobconsultingllc/) ?
+Want to try code style as seen in ***[Clean Code : A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/)*** 
+by [Robert C. Martin (Uncle Bob)](https://sites.google.com/site/unclebobconsultingllc/)?  Is it fit for you and your team?
 
-This is IntelliJ IDEA (include Android Studio) Java Code style config base on code snippet in that one
+This is IntelliJ IDEA (include Android Studio) Java code style config base on code snippet in that one
 
-> **NOTE!** This is not his official configuration.
+### **NOTE**:exclamation: This is not his official configuration.
 
 If you found any issue or have any suggestion, [create it](https://github.com/piruin/uncle-bob-style/issues) and figure out together.
 
